@@ -1,0 +1,6 @@
+{
+	"window.title": "${activeEditorMedium}${dirty}${separator}Concourse CI Resource Type - Gitea Status${separator}${appName}",
+	"cSpell.words": [
+		"Gitea"
+	]
+}
