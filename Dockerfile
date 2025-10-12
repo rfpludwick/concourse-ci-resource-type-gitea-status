@@ -1,4 +1,4 @@
-FROM alpine:3.22.1
+FROM alpine:3.22.2
 
 COPY --chown=root:root --chmod=755 src/check.sh /opt/resource/check
 COPY --chown=root:root --chmod=755 src/in.sh /opt/resource/in
