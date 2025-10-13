@@ -24,14 +24,14 @@ Sends a structured message to Gitea based on the build state.
 #### Parameters
 
 * `build_state`: *Required.* The type of state to send to Gitea. Documentation available
-at [Gitea's API docs](https://docs.gitea.com/api/1.20/#tag/repository/operation/repoCreateStatus).
+  at [Gitea's API docs](https://docs.gitea.com/api/1.20/#tag/repository/operation/repoCreateStatus).
 * `repo`: *Required.* The repository used as input. From a git clone, typically.
 * `build_status_prefix`: *Optional.* A string value to prefix to the build status
-check name.
+  check name.
 * `build_status_branch_suffix`: *Optional.* A boolean flag to append the branch
-name to the end of the status check name as a suffix.
+  name to the end of the status check name as a suffix.
 * `build_status_description_`: *Optional.* A string value to set as status for the
-build status check.
+  build status check.
 
 ## Example
 
