@@ -10,6 +10,6 @@ RUN \
 		bash=5.3.9-r1 \
 		curl=8.21.0-r0 \
 		git=2.54.0-r0 \
-		jq=1.8.1-r0 ;
+		jq=1.8.2-r0 ;
 
 CMD [ "/bin/bash" ]
