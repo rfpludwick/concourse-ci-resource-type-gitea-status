@@ -8,7 +8,7 @@ RUN \
 	apk update ; \
 	apk add --no-cache \
 		bash=5.3.9-r1 \
-		curl=8.21.0-r0 \
+		curl=8.22.0-r0 \
 		git=2.54.0-r0 \
 		jq=1.8.1-r0 ;
 
